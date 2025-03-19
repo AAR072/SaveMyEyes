@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Site Settings</title>
+    <style>
+/* Default light mode styles */
+body {
+  background-color: white;
+  color: black;
+}
+
+.toggle-container {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+label {
+  flex: 1;
+  margin-right: 10px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+    color: white;
+  }
+
+  .toggle-container {
+    background-color: #333;
+  }
+
+  label {
+    color: #ddd;
+  }
+
+  h2 {
+    color: #ddd;
+  }
+}
+    </style>
+  </head>
+  <body>
+    <h2>Site Settings</h2>
+    <div class="toggle-container">
+      <label for="toggle-greyscale">Apply Greyscale:</label>
+      <input type="checkbox" id="toggle-greyscale" />
+    </div>
+    <div class="toggle-container">
+      <label for="toggle-invert">Invert Greyscale:</label>
+      <input type="checkbox" id="toggle-invert" />
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
