@@ -14,7 +14,7 @@ This Firefox extension allows you to:
 - **Auto Refresh**: Changes take effect immediately with an automatic page reload.  
 
 ## Installation  
-
+### Coming to firefox store soon
 1. Download or clone the extension folder.  
 2. Open Firefox and go to `about:debugging`.  
 3. Select **"This Firefox"** and click **"Load Temporary Add-on"**.  
